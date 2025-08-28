@@ -70,7 +70,7 @@ body {
   width: 100%;
   padding: 10px 40px 10px 14px;
   border: 1px solid #d1d5db;
-  border-radius: 12px;
+  border-radius: 5px;
   font-size: 16px;
   outline: none;
   transition: all 0.25s ease-in-out;
@@ -114,7 +114,7 @@ body {
   padding: 10px 12px;
   background: yellowgreen;
   border: none;
-  border-radius: 10px;
+  border-radius: 5px;
   font-size: 18px;
   color: #fff;
   cursor: pointer;
@@ -248,4 +248,29 @@ body {
   100% {
     background-position: 200% 0;
   }
+}
+
+/* Login button */
+.login-btn {
+  background-color: #007bff; /* Blue background */
+  color: #fff; /* White text */
+  padding: 10px 20px; /* Spacing */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 16px; /* Text size */
+  cursor: pointer; /* Pointer on hover */
+  transition: background-color 0.3s ease;
+}
+
+.login-btn:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.login-btn:active {
+  background-color: #004080; /* Even darker when clicked */
+}
+
+.login-btn:disabled {
+  background-color: #ccc; /* Gray when disabled */
+  cursor: not-allowed;
 }
