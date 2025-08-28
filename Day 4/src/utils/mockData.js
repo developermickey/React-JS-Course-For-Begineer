@@ -1,4 +1,4 @@
-const listOfRestaurant = [
+let listOfRestaurant = [
     {
         data: {
             id: "255655",
